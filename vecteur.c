@@ -70,3 +70,21 @@ void multiplicationVectorielleScalaire(const tVecteur stVecteur1,const int nScal
 void produitScalaire(const tVecteur stVecteur1,const tVecteur stVecteur2,int *pnResultat){
     *pnResultat=stVecteur1.nX*stVecteur2.nX+stVecteur1.nY*stVecteur2.nY;
 }
+
+//###########################################
+//PROGRAMME produitVectoriel
+//*****************************************************************************************************//
+//
+// DESCRIPTION Calcul le produit vectorielle de deux vecteurs et remplace la coordonné z par 2 constante z1 et z2
+//
+// ENTREE / Les 2 vecteur, la ref du resultat, les const z1 et z2
+//
+// SORTIE / La vecteur resultat
+//
+// NOTE Calcul X3 = Y1*Z2 - Y2*Z1,  Y3 = Z1*X2 - Z2*Y1
+//
+//*****************************************************************************************************//
+void produitVectoriel(const tVecteur stVecteur1,const tVecteur stVecteur2,tVecteur *pstResultat,int const nZ1,int const nZ2){
+    pstResultat->nX = stVecteur1.nY*nZ2-nZ1*stVecteur2.nY;
+    pstResultat->nY = nZ1*stVecteur2.nX-stVecteur1.nX*nZ2;
+}

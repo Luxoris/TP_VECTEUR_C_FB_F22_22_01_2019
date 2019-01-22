@@ -74,7 +74,7 @@ void produitScalaire3D(const tVecteur3D stVecteur1,const tVecteur3D stVecteur2,i
 }
 
 //###########################################
-//PROGRAMME produitScalaire
+//PROGRAMME produitVectoriel
 //*****************************************************************************************************//
 //
 // DESCRIPTION Calcul le produit vectorielle de deux vecteurs et ressort la vecteur resultat

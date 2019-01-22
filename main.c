@@ -51,6 +51,10 @@ int main(){
     produitScalaire(stVect1,stVect2,&nNb);
     printf("nNb=%d\n",nNb);
 
+    printf("Test procedure produit vectoriel (Z1 = 1 et Z2 = 2): \n");
+    produitVectoriel(stVect1,stVect2,&stVect3,1,2);
+    affichageVecteur(stVect3);
+
     //TEST VECTEUR 3D
 
     printf("Valeur Vect1 : \n");
