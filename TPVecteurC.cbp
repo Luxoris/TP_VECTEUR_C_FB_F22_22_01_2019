@@ -34,6 +34,18 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="vecteur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vecteur.h" />
+		<Unit filename="vecteur3D.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vecteur3D.h" />
+		<Unit filename="vue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vue.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
